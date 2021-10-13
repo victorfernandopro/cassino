@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Helvetica;
+    background: radial-gradient(#e66465, #9198e5);
+    color: white;
+}
+
+button {
+    border: none;
+    color: white;
+}
+
+button:active {
+    border: 1px solid black;
+    color: white;
+}
+
+.titulo {
+    font-size: 140px;
+}
+
+.numeros button {
+    width: 100px;
+    height: 100px;
+    font-size: 32px;
+    background-color: rgb(59, 118, 255);
+}
+
+.acao button {
+    width: 200px;
+    height: 100px;
+    font-size: 32px;
+    color: white;
+}
+
+.acao button.sortear {
+    background-color: yellowgreen;
+}
+
+.acao button.resetar {
+    margin-left: 40px;
+    background-color: firebrick;
+}
+
+.display {
+    font-size: 140px;
+}
+
+.resultado {
+    font-size: 60px;
+}
