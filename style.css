@@ -24,7 +24,11 @@ button:active {
 }
 
 .titulo {
-    font-size: 140px;
+    font-size: 100px;
+}
+
+.subtitulo {
+    font-size: 40px;
 }
 
 .numeros button {
@@ -36,6 +40,10 @@ button:active {
 
 .numeros button.selecionado {
     background-color: rgb(27, 50, 104);
+}
+
+.acao {
+    display: flex;
 }
 
 .acao button {
@@ -54,10 +62,21 @@ button:active {
     background-color: firebrick;
 }
 
+.acao button.inserirCreditos {
+    margin-left: 40px;
+    background-color: rgb(27, 50, 104);
+}
+
+
+
+.acao button div.subtitulo-btn {
+    font-size: 22px;
+}
+
 .display {
-    font-size: 140px;
+    font-size: 100px;
 }
 
 .resultado {
-    font-size: 60px;
+    font-size: 40px;
 }

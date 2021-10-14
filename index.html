@@ -4,11 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cassino</title>
+    <title>C4$$1N0</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="titulo">C4$$1N0</div>
+    <div class="subtitulo">Créditos: <span class='credito'></span></div>
+    <div class="acao">
+        <button onclick="sortear()" class="sortear">
+           <div>Sortear</div>
+           <div class='subtitulo-btn'>(1 crédito)</div>
+        </button>
+        <button onclick="resetar()" class="resetar">Reiniciar</button>
+        <button onclick="inserirCreditos()" class="inserirCreditos">Inserir créditos</button>
+    </div>
     <div class="numeros">
         <button value="1" class="numero">1</button>
         <button value="2" class="numero">2</button>
@@ -20,10 +29,6 @@
         <button value="8" class="numero">8</button>
         <button value="9" class="numero">9</button>
         <button value="10" class="numero">10</button>
-    </div>
-    <div class="acao">
-        <button onclick="sortear()" class="sortear">Sortear</button>
-        <button onclick="resetar()" class="resetar">Reiniciar</button>
     </div>
     <div class="display">$</div>
     <div class="resultado">Escolha um número e clique em Sortear para começar</div>
