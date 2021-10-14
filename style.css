@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -14,6 +15,7 @@ body {
 button {
     border: none;
     color: white;
+    cursor: pointer;
 }
 
 button:active {
@@ -30,6 +32,10 @@ button:active {
     height: 100px;
     font-size: 32px;
     background-color: rgb(59, 118, 255);
+}
+
+.numeros button.selecionado {
+    background-color: rgb(27, 50, 104);
 }
 
 .acao button {
